@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+
+/* Reset Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --cor-text: rgba(255, 242, 231, 1);
+  --cor-button:rgba(236, 214, 196, 1);
+
+}
+
+
+
+/* Estilos do Corpo da Página */
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+/* Estilos do Cabeçario da Página */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+.itens-menu{
+    font-family: 'Sarala', sans-serif;
+    color: var(--cor-text);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+/* Estilos da Parte Principal da Página */
+
+.content{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #ffF2E7;
+}
+
+.primary-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-primary{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#primary-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: var(--cor-text);
+}
+
+#sub-title{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--cor-text);
+}
+
+#button{
+    background-color: var(--cor-button);
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
