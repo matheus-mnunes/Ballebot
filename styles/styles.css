@@ -95,3 +95,40 @@ body{
     border-radius: 20px;
 }
 
+.secondary-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.secondary-title{
+    border-top: 0.4px solid #ffF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-text);
+    margin-bottom: 16px;
+}
+
+.text{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--cor-text);
+    margin-top: 18px;
+    text-align: center;
+}
+
+.footer{
+    border-top: 0.4px solid #ffF2E7;
+    padding: 32px;
+}
+
+.img-footer{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
